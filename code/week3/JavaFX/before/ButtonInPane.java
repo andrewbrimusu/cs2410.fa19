@@ -1,6 +1,8 @@
-//14.4 Explain Stage, Scene, Node...
-//UML
-//Demo ButtinPane and ShowCircle
+package week3;
+
+//8. 14.4 Explain Stage, Scene, Node...
+//9. Demo ButtoninPane
+// GOTO ShowCircle.java
 
 import javafx.application.Application;
 import javafx.scene.Scene;

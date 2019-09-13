@@ -1,6 +1,7 @@
-//14.1 introduce JavaFX
-//14.2 Explain history Swing
-//Book 14.3 first two paragraphs
+package week3;
+//1. 14.1 introduce JavaFX
+//2. 14.2 Explain history Swing
+//3. Book 14.3 first two paragraphs
 //GOTO MultipleStageDemo
 import javafx.application.Application;
         import javafx.scene.Scene;

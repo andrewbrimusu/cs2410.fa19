@@ -1,7 +1,8 @@
+package week3;
 
-//Explain Scene and Stage, using tutorialspoint
-//demo setResizable, FullScreen, AlwaysOnTop
-//14.4 Panees, UI Control and Shapes
+//5. Explain Scene and Stage, using tutorialspoint
+//6. demo setResizable, FullScreen, AlwaysOnTop
+//7. 14.4 Panees, UI Control and Shapes
 //GOTO ButtonInPane
 
 import javafx.application.Application;

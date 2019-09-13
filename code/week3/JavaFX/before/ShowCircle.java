@@ -1,3 +1,7 @@
+//10. add multiple circles
+//11. show origin
+//
+package week3;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
@@ -10,8 +14,8 @@ public class ShowCircle extends Application {
     public void start(Stage primaryStage) {
         // Create a circle and set its properties
         Circle circle = new Circle();
-        circle.setCenterX(100);
-        circle.setCenterY(100);
+        circle.setCenterX(400);
+        circle.setCenterY(400);
         circle.setRadius(50);
         circle.setStroke(Color.BLACK);
         circle.setFill(null);
