@@ -1,7 +1,8 @@
-//setRotate
-//fx, fx css style
+//1. setRotate
+//2. fx, fx css style
+//3. add rotation to button
+//goto Password.java
 
-//add rotation to button
 package week4.tue;
 
 import javafx.application.Application;

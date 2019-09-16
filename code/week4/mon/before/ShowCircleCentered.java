@@ -4,9 +4,11 @@
 //4. Review Property getter and setters page 543
 //5. Review other Property built-in methods
 //6. Change widthProperty
+//7. Put circle in upper left corner, upper right corner, lower left corner, lower right corner
 //x Bindings, dynamic updates
 //play around with bind() functions
 //play around with set functions
+//goto BindingDemo.java
 
 
 package week4.tue;
