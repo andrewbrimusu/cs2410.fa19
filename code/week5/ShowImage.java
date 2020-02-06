@@ -1,8 +1,9 @@
-package week4.fri;
+package week5;
 /*
 1. Add image
 2. fit image
 3. rotate image
+4. goto GroupVsPaneDemo.java
  */
 import javafx.application.Application;
 import javafx.scene.Scene;
