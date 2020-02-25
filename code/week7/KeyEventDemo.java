@@ -30,11 +30,16 @@ public class KeyEventDemo extends Application {
                 case LEFT: text.setX(text.getX() - 10); break;
                 case RIGHT: text.setX(text.getX() + 10); break;
                 default:
-                    text.setText(text.getText()+e.getText());
-                    /*
+                    //text.setText(text.getText()+e.getText());
+
                     if(e.getCode() == KeyCode.SHIFT || e.isShiftDown()) {
                         System.out.println("shift");
-                        text.setText(text.getText()+e.getText().toUpperCase());
+                        if(e.getText().equals("1")) {
+                            text.setText(text.getText()+"!");
+                        }
+                        else {
+                            text.setText(text.getText()+e.getText().toUpperCase());
+                        }
                     }
                     else if(e.getCode() == KeyCode.BACK_SPACE) {
                         String str = text.getText();
@@ -45,7 +50,7 @@ public class KeyEventDemo extends Application {
                         text.setText(text.getText()+e.getText());
                     else
                         text.setText(text.getText()+e.getText());
-                    */
+
             }
         });
 

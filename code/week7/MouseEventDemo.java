@@ -15,6 +15,9 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class MouseEventDemo extends Application {
+
+    private int numEvents=0;
+
     @Override // Override the start method in the Application class
     public void start(Stage primaryStage) {
         // Create a pane and set its properties
@@ -22,7 +25,8 @@ public class MouseEventDemo extends Application {
         Text text = new Text(20, 20, "Programming is fun");
         pane.getChildren().addAll(text);
         text.setOnMouseDragged(e -> {
-            //System.out.println("hello");
+            numEvents++;
+            System.out.println("hello" + numEvents);
             text.setX(e.getX());
             text.setY(e.getY());
             text.setX(text.getX());

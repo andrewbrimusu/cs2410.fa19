@@ -9,8 +9,10 @@ package week7;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
@@ -19,12 +21,12 @@ public class ShowBorderPane extends Application {
     public void start(Stage primaryStage) {
         // Create a border pane
         BorderPane pane = new BorderPane();
-        //FlowPane fp1 = new FlowPane();
-        //fp1.getChildren().add(new Button("OK"));
+        FlowPane fp1 = new FlowPane();
+        fp1.getChildren().add(new Button("OK"));
 
         // Place nodes in the pane
         pane.setTop(new CustomPane("Top"));
-        //pane.setTop(fp1);
+        pane.setTop(fp1);
         pane.setRight(new CustomPane("Right"));
         pane.setBottom(new CustomPane("Bottom"));
         pane.setLeft(new CustomPane("Left"));
